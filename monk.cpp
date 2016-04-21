@@ -2,6 +2,8 @@
 #include<iostream>
 #include<algorithm>
 
+// This file implements a solution for pokemon problem
+
 using namespace std;
 
 int main()
