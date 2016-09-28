@@ -1,6 +1,7 @@
 
 #include<bits/stdc++.h>
 
+// You require C++11 to compile this code
 using namespace std;
 
 template<typename T>
@@ -33,8 +34,8 @@ T myMapIntersect(T& left, T& right)
 			result[i.first] = i.second;
 	}
 
-	cout << "result \n";
-	print<T>(result);
+	//cout << "result \n";
+	//print<T>(result);
 
 	return result;
 }
@@ -55,11 +56,11 @@ int minDeletions(string& s1, string &s2)
 	
 	} 
 
-	cout << "m1\n";
-	print<map<char, int> >(m1);
+	//cout << "m1\n";
+	//print<map<char, int> >(m1);
 
-	cout << "m2\n";
-	print<map<char, int> >(m2);
+	//cout << "m2\n";
+	//print<map<char, int> >(m2);
 	auto result = myMapIntersect<map<char, int > > (m1, m2);
 	
 	for (auto i : result) {
@@ -75,9 +76,7 @@ int main()
 	string s1, s2;
 	cin >> s1 >> s2;
 
-	 //myMapIntersect< map<string,int> >(m, m);
 	cout << "min dele" << minDeletions(s1, s2);
-	
 	
 	return 0;
 }
