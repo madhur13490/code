@@ -1,7 +1,13 @@
 
+// Hacky way to include all files!
+// Ideally you should include only the reqiuired files
+// to avoid compile-time hammer and achieve portability.
 #include<bits/stdc++.h>
 
 using namespace std;
+
+// The class MaxheapVerify accepts vector as input
+// and verifies if it honors max heap property.
 
 class MaxHeapVerify {
 	private:
@@ -54,6 +60,7 @@ class MaxHeapVerify {
 		}
 };
 
+// Simple driver routine.
 int main()
 {
 
