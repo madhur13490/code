@@ -49,6 +49,6 @@ int main()
         d.insert("madhur");
         d.insert("madhur");
 
-        d.printDict();
+        d.printDict(); // prints "madhur" = 3
 }*/
 
